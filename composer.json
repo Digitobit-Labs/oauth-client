@@ -1,0 +1,34 @@
+{
+    "name": "digitobit/oauth-client",
+    "description": "Lightweight OAuth2/OpenID Connect client wrapper built on league/oauth2-client.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "oauth2",
+        "openid-connect",
+        "oidc",
+        "league",
+        "passport",
+        "laravel-passport"
+    ],
+    "authors": [
+        {
+            "name": "Neeraj Mourya",
+            "email": "contact@digitobit.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "league/oauth2-client": "^2.8",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "firebase/php-jwt": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Digitobit\\OAuthClient\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

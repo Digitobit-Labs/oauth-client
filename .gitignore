@@ -1,0 +1,19 @@
+# Composer
+/vendor/
+
+# Composer lock (libraries usually don't commit this)
+composer.lock
+
+# IDEs
+/.idea/
+/.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# PHPUnit
+.phpunit.result.cache
+
+# Logs
+*.log
