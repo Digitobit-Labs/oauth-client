@@ -1,4 +1,4 @@
-# OAuth2 Client
+# OAuth Client
 
 A lightweight OAuth 2.0 and OpenID Connect (OIDC) client library for PHP built on top of **league/oauth2-client**.
 
